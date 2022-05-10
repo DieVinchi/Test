@@ -125,12 +125,66 @@
   object-fit: cover;
 }
 
-.description2{
+.description2 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 27px;
   margin: 20px;
+}
+.bottom{
+  background: #817070;
+  height: 337px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.subscribe{
+  color: #FFFF;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
 
+}
+input[type=email] {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  text-align: center;
+  background: #817070;
+  border: 1px solid #FFFFFF;
+  padding: 9px 93px 16px 93px;
+  outline:none;
+}
+::placeholder {color: #FFFFFF;}
+
+.sumbit{
+  height: 55px;
+  width: 120px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color:#817070;
+
+}
+.footer{
+  padding: 29px;
+}
+.footertext{
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 }
